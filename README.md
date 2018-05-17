@@ -37,8 +37,16 @@ wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 allow-hotplug wlan1
 iface wlan1 inet manual
 wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
-
 ```
+
+# camera
+
+install picamera `pip install picamera`
+
+activate the camera interface with `raspi-still` then reboot
+
+test picamera `raspistill -o pict.jpg`
+
 
 wpa_supplicant config
 ---------------------
